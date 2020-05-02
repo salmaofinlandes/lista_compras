@@ -28,7 +28,7 @@ form input, form button{
 	font-size: 2rem;
 	border: none;
 	background: white;
-	
+
 }
 
 
@@ -36,11 +36,11 @@ form button{
 	color:#d88771;
 	background:white;
 	cursor:pointer;
-	
+
 }
 
 form button:hover{
-	
+
 	color:white;
 	background:#d88771;
 	transition:0.4s;
@@ -50,15 +50,15 @@ form button:hover{
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	
+
 }
 
 
 .lista{
-	
+
 	min-width:30%;
 	list-style:none;
-	
+
 }
 
 .div-item{
@@ -69,6 +69,7 @@ form button:hover{
 	display:flex;
 	justify-content: space-between;
 	align-items:center;
+	transition: all 1s ease;
 }
 
 
@@ -87,8 +88,8 @@ color:white;
 border:none;
 padding:1rem;
 cursor:pointer;
-font-size:2rem;	
-	
+font-size:2rem;
+
 }
 
 .check{
@@ -96,18 +97,13 @@ font-size:2rem;
 	background:rgb(73, 204, 73);
 }
 
+.fa-trash, .fa-check{
+	pointer-events: none;
+}
 
 
+.checked{
+	opacity: 0.4;
+  color: grey;
 
-
-
-
-
-
-
-
-
-
-
-
-
+}
