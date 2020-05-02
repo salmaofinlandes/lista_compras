@@ -49,5 +49,5 @@ function addTodo(event){
 
 
 function setCookie(){
-	document.cookie = "value = ola"
+	document.cookie = "value =" + document.getElementsByTagName("li").innerHTML
 }
